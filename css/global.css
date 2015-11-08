@@ -6474,9 +6474,9 @@ table.table_block td {
       #home-page-tabs > li {
         width: 100%; } }
     #home-page-tabs > li a {
-      font: 600 21px/24px "Open Sans", sans-serif;
+      font: 600 16px/20px "Open Sans", sans-serif;
       color: #555454;
-      text-transform: uppercase;
+      /*text-transform: uppercase;*/
       border: none;
       outline: none;
       margin: 0;

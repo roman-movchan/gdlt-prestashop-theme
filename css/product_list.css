@@ -81,12 +81,12 @@ ul.product_list .product-image-container {
     font: 700 13px/16px Arial, Helvetica, sans-serif;
     color: #777676;
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: 42%;
+    top: 70%;
     margin: -21px 0 0 -53px;
     padding: 13px 0 0;
     background: rgba(255, 255, 255, 0.82);
-    width: 107px;
+    width: 150px;
     height: 43px;
     text-align: center;
     -moz-box-shadow: rgba(0, 0, 0, 0.16) 0 2px 8px;
@@ -164,7 +164,7 @@ ul.product_list.grid > li {
     padding: 0;
     position: relative; }
     ul.product_list.grid > li .product-container .product-image-container {
-      border: 1px solid #d6d4d4;
+      border: 1px solid #fcfcfc;
       padding: 9px;
       margin-bottom: 13px;
       position: relative; }
