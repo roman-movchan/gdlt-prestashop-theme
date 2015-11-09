@@ -112,7 +112,7 @@
       z-index: 2;
       padding: 16px 0 0 0; }
     #homepage-slider .bx-wrapper .bx-controls-direction a:hover:before {
-      background: #333;
+      background: #090909;
       opacity: 0.83; }
   #homepage-slider .bx-wrapper .bx-prev {
     right: 60px;
@@ -123,6 +123,6 @@
     content: "\f054"; }
 
 .ie8 #homepage-slider .bx-wrapper .bx-controls-direction a:before {
-  background: #333; }
+  background: #090909; }
 
 /*# sourceMappingURL=homeslider.css.map */

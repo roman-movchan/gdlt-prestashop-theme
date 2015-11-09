@@ -4,7 +4,7 @@
     float: left;
     width: 100%; }
   #search_block_top .btn.button-search {
-    background: #333;
+    background: #090909;
     display: block;
     position: absolute;
     top: 0;
@@ -51,7 +51,7 @@
 form#searchbox {
   position: relative; }
   form#searchbox label {
-    color: #333; }
+    color: #090909; }
   form#searchbox input#search_query_block {
     margin-right: 10px;
     max-width: 222px;
