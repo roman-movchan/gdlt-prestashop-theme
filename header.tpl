@@ -71,15 +71,17 @@
 		<div id="page">
 			<div class="header-container">
 				<header id="header">
-					{capture name='displayBanner'}{hook h='displayBanner'}{/capture}
-					{if $smarty.capture.displayBanner}
-						<div class="banner">
-							<div class="container">
-								<div class="row">
-									{$smarty.capture.displayBanner}
+					{if !$cookie->isLogged()}
+						{capture name='displayBanner'}{hook h='displayBanner'}{/capture}
+						{if $smarty.capture.displayBanner}
+							<div class="banner">
+								<div class="container">
+									<div class="row">
+										{$smarty.capture.displayBanner}
+									</div>
 								</div>
 							</div>
-						</div>
+						{/if}
 					{/if}
 					{capture name='displayNav'}{hook h='displayNav'}{/capture}
 					{if $smarty.capture.displayNav}
